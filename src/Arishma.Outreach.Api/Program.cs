@@ -1,0 +1,11 @@
+using Arishma.Outreach.Application;
+using Arishma.Outreach.Infrastructure;
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddHealthChecks();
+builder.Services.AddPersistence(builder.Configuration);
+var app = builder.Build();
+app.MapHealthChecks("/health");
+app.MapGet("/", (DatabaseSettings s) => new ServiceInfoDto("Outreach", "outreach.arishmasolutions.com", "Phase 0 scaffold - DDD, separate repo", s.Provider.ToString()));
+app.MapGet("/api/v1/service", (DatabaseSettings s) => new ServiceInfoDto("Outreach", "outreach.arishmasolutions.com", "Phase 0 scaffold", s.Provider.ToString()));
+app.MapGet("/api/v1/campaigns", (ICampaignRepository repo) => repo.ListAsync());
+app.Run();

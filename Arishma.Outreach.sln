@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DC64B38F-9671-4199-92B9-56D334390E34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arishma.Outreach.Domain", "src\Arishma.Outreach.Domain\Arishma.Outreach.Domain.csproj", "{5D728366-CD8F-4901-9527-289C5FA5985D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arishma.Outreach.Application", "src\Arishma.Outreach.Application\Arishma.Outreach.Application.csproj", "{8CC2BE0C-09D6-4D11-B19C-16776E735F1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arishma.Outreach.Infrastructure", "src\Arishma.Outreach.Infrastructure\Arishma.Outreach.Infrastructure.csproj", "{872E73D0-091C-4C79-B5CF-958E1BB00A72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arishma.Outreach.Api", "src\Arishma.Outreach.Api\Arishma.Outreach.Api.csproj", "{34F108A7-AEB7-48E7-803F-92851191D067}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8924ACBA-1779-4DA3-88E3-8FB68E04A251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arishma.Outreach.Tests", "tests\Arishma.Outreach.Tests\Arishma.Outreach.Tests.csproj", "{955E0BE7-27AA-4B05-9645-6EA2CFB8EE52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D728366-CD8F-4901-9527-289C5FA5985D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D728366-CD8F-4901-9527-289C5FA5985D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D728366-CD8F-4901-9527-289C5FA5985D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D728366-CD8F-4901-9527-289C5FA5985D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CC2BE0C-09D6-4D11-B19C-16776E735F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC2BE0C-09D6-4D11-B19C-16776E735F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC2BE0C-09D6-4D11-B19C-16776E735F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC2BE0C-09D6-4D11-B19C-16776E735F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{872E73D0-091C-4C79-B5CF-958E1BB00A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{872E73D0-091C-4C79-B5CF-958E1BB00A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{872E73D0-091C-4C79-B5CF-958E1BB00A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{872E73D0-091C-4C79-B5CF-958E1BB00A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34F108A7-AEB7-48E7-803F-92851191D067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34F108A7-AEB7-48E7-803F-92851191D067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34F108A7-AEB7-48E7-803F-92851191D067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34F108A7-AEB7-48E7-803F-92851191D067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{955E0BE7-27AA-4B05-9645-6EA2CFB8EE52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{955E0BE7-27AA-4B05-9645-6EA2CFB8EE52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{955E0BE7-27AA-4B05-9645-6EA2CFB8EE52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{955E0BE7-27AA-4B05-9645-6EA2CFB8EE52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D728366-CD8F-4901-9527-289C5FA5985D} = {DC64B38F-9671-4199-92B9-56D334390E34}
+		{8CC2BE0C-09D6-4D11-B19C-16776E735F1D} = {DC64B38F-9671-4199-92B9-56D334390E34}
+		{872E73D0-091C-4C79-B5CF-958E1BB00A72} = {DC64B38F-9671-4199-92B9-56D334390E34}
+		{34F108A7-AEB7-48E7-803F-92851191D067} = {DC64B38F-9671-4199-92B9-56D334390E34}
+		{955E0BE7-27AA-4B05-9645-6EA2CFB8EE52} = {8924ACBA-1779-4DA3-88E3-8FB68E04A251}
+	EndGlobalSection
+EndGlobal
